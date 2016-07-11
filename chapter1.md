@@ -32,7 +32,7 @@ Let's begin by printing the form manually.
 ```{r}
 # Print out the 7 text stirngs
 # 2010
-print(paste("The year is", ___))
+print(paste("The year is", 2010))
 
 # 2011
 print(paste("The year is", ___))
@@ -154,11 +154,12 @@ for (variable in c(sequence)){
 ```
 
 *** =instructions
-- Use a `for()` loop to print out the list of 7 phrases.
+- Use a `for()` loop to print out the list of 7 phrases for the sequence of years 2010 to 2016.
+- Assign the variable to `year` the `for()` loop syntax.
 
 
 *** =hint
-- Make sure the for loop {} are closed!
+- Make sure the for loop {} are closed and that the variable is labeled `year`!
 
 *** =pre_exercise_code
 ```{r}
